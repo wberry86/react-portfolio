@@ -1,12 +1,23 @@
-import React from 'react';
-//import logo from './logo.svg';
-import './App.css';
-import About from './components/About';
+import React from "react";
+import About from "./components/About";
+import Nav from "./components/Nav";
+import Portfolio from "./components/Portfolio";
+import Contact from "./components/Contact";
+import Resume from "./components/Resume";
+import "./App.css";
+
+
 
 function App() {
   return (
     <div>
-      <About />
+      <Nav></Nav>
+      <main>
+        <About></About>
+        <Portfolio></Portfolio>
+        <Resume></Resume>
+        <Contact></Contact>
+      </main>
     </div>
   );
 }
