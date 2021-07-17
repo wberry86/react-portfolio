@@ -9,11 +9,12 @@ import { Switch, Route } from 'react-router-dom';
 
 const Main = () => (
     <Switch>
-        <Route exact path="/header" component={Header} />
-        <Route exact path="/about" component={About} />
-        <Route exact path="/portfolio" component={Portfolio} />
-        <Route exact path="/resume" component={Resume} />
-        <Route exact path="/contact" component={ContactForm} />
+        <Route exact path="/" component={Header} />
+        <Route path="/header" component={Header} />
+        <Route path="/about" component={About} />
+        <Route path="/portfolio" component={Portfolio} />
+        <Route path="/resume" component={Resume} />
+        <Route path="/contact" component={ContactForm} />
     </Switch>
 )
 

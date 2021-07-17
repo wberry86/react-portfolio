@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import contactPainting from "../../assets/cover/painting.jpg";
+import contactPainting from "../../assets/cover/painting3.jpg";
 
 import { validateEmail } from '../../utils/helpers';
 
@@ -60,14 +60,14 @@ function ContactForm() {
         )}
         <button data-testid="button" type="submit">Submit</button>
       </form>
-      <a href='/about'>
+       <a href='/about'>
         <img
           src={contactPainting}
           className="my-2"
           style={{ width: "100%" }}
           alt="cover"
         />
-        </a>
+        </a> 
     </section>
   );
 }

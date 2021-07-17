@@ -6,7 +6,7 @@ class Header extends Component {
   render() {
     return (
       <div>
-        <h1>Hello this is Will Berry's professional portfolio. Welcome</h1>
+        <h1 className='headerText'>Hello this is Will Berry's professional portfolio. Welcome</h1>
         <a href='/about'>
         <img
           src={coverImage}
