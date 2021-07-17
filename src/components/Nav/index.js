@@ -1,34 +1,36 @@
-import React from 'react';
+import React, { Component } from 'react';
+//import Link from 'react-router-dom';
 
 
-function Nav() {
+ class Nav extends Component {
+   render() {
     return(
         <header>
             <h2>
-    <a href="/">
+    <a href="/header">
       <span role="img" aria-label="camera"> 💻</span> Will Berry
     </a>
   </h2>
   <nav>
     <ul className="flex-row">
       <li className="mx-2">
-        <a href="#about">
-          About me
+        <a href="/about">
+          About 
         </a>
       </li>
       <li className="mx-2">
-      <a href="#portfolio">
+      <a href="/portfolio">
           Portfolio
         </a>
       </li>
       <li className="mx-2">
-      <a href="#contact">
-          Contact
+      <a href="/resume">
+          Resume
         </a>
       </li>
       <li className="mx-2">
-      <a href="#resume">
-          Resume
+      <a href="/contact">
+          Contact
         </a>
       </li>
     </ul>
@@ -36,5 +38,6 @@ function Nav() {
         </header>
     );
 }
+ }
 
 export default Nav;

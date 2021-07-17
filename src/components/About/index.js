@@ -1,24 +1,47 @@
-import React from 'react';
-import coverImage from "../../assets/cover/cover-image.jpg";
+//import { render } from "@testing-library/react";
+import React, { Component } from "react";
+import profileImage from "../../assets/large/portraits/profile2.jpg";
+import paintingTwo from "../../assets/cover/painting2.jpg";
 
-function About() {
-    return(
-        <section>
-            <h1 id='about'>Hello this is Will Berry's professional portfolio. Welcome</h1>
-            <img src={coverImage} className="my-2" style={{ width: '100%' }} alt='cover' />
-            <div className="my-2">
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec bibendum turpis sed ex
-          condimentum molestie. Mauris condimentum lectus ut ornare dignissim. Mauris faucibus urna
-          mi, ac feugiat metus aliquam maximus. Proin aliquam justo nec diam vulputate vestibulum.
-          Aenean sollicitudin nulla at nisi ornare, nec suscipit massa eleifend. Morbi tristique
-          justo vel turpis sollicitudin, et tristique velit convallis. In hac habitasse platea
-          dictumst. Phasellus mattis nunc sed orci consequat laoreet. Praesent id nisl nibh.
-          Curabitur imperdiet ultricies mollis. In hac habitasse platea dictumst.
-        </p>
+class About extends Component {
+  render() {
+  return (
+    <section>
+      <div className="my-2">
+      <a href='/about'>
+        <img
+          src={paintingTwo}
+          className="my-2"
+          style={{ width: "100%" }}
+          alt="cover"
+        />
+        </a>
+        <h4 id="about">
+          <span>Hi, my name is Will Berry</span> I am currently looking for a
+          career in web development and have experience using HTML, CSS, and
+          JavaScript. I received my technical skills while attending Vanderbilt
+          Coding Boot-Camp and would be interested in helping companies set up
+          websites via the use of HTML and CSS. I would also like to help debug
+          and streamline code in a more efficient manner. My past academic
+          history includes a Bachelor of Arts in Film Studies from Carson Newman
+          University, with a focus on: computer design, editing, an introduction
+          to media law and ethics, story-boarding, video/audio editing,
+          marketing/advertisement, creation of movie posters, editing and
+          filming of trailers, creation of websites, and the design and
+          implementation of company logos. Together with my technical and
+          creative skills combined, I should prove to be a valuable asset to any
+          company looking to hire new talent.
+        </h4>
+        <img
+          src={profileImage}
+          className="my-2"
+          style={{ width: "100%" }}
+          alt="cover"
+        />
       </div>
-        </section>
-    );
+    </section>
+  );
+  }
 }
 
 export default About;

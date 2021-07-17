@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import contactPainting from "../../assets/cover/painting.jpg";
 
 import { validateEmail } from '../../utils/helpers';
 
@@ -37,7 +38,7 @@ function ContactForm() {
   };
 
   return (
-    <section>
+    <section id='contact'>
       <h1 data-testid="h1tag">Contact me</h1>
       <form id="contact-form" onSubmit={handleSubmit}>
         <div>
@@ -59,6 +60,14 @@ function ContactForm() {
         )}
         <button data-testid="button" type="submit">Submit</button>
       </form>
+      <a href='/about'>
+        <img
+          src={contactPainting}
+          className="my-2"
+          style={{ width: "100%" }}
+          alt="cover"
+        />
+        </a>
     </section>
   );
 }
