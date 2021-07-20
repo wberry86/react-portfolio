@@ -32,7 +32,7 @@
   - Email: wberry86@gmail.com
 
   ## Link
-  [Link to Will's portfolio](https://git.heroku.com/fast-basin-56283.git)
+  [Link to Will's portfolio](https://fast-basin-56283.herokuapp.com/)
 
   ## Screenshot
   ![Portfolio screenshot](https://github.com/wberry86/react-portfolio/blob/main/src/assets/project/images/portfolio.PNG)
