@@ -6,9 +6,9 @@ import React, { Component } from 'react';
    render() {
     return(
         <header>
-            <h2>
+            <h2 id="title">
     <a href="/header">
-      <span role="img" aria-label="camera"> 💻</span> Will Berry
+      <span role="img" aria-label="camera"></span> Will Berry
     </a>
   </h2>
   <nav>

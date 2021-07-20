@@ -27,6 +27,11 @@ body {
   min-height: 100%;
 }
 
+a:-webkit-any-link {
+  text-decoration: none;
+  color: inherit;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -60,6 +65,15 @@ h2 {
   font-size: 2rem;
 }
 
+#title {
+  /* border: 2px solid blue; */
+  padding-left: 50px;
+}
+
+.textArea {
+  width: 200%;
+}
+
 h3 {
   font-size: 1.75rem;
 }
@@ -85,6 +99,10 @@ a {
   color: var(--tertiary);
   text-decoration: none;
   font-weight: bold;
+}
+
+.mx-2 a:hover {
+  color: green;
 }
 
 a:hover {

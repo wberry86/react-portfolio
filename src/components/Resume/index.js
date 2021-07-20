@@ -1,14 +1,15 @@
 import React, { Component } from 'react';
 import linkedInImage from "../../assets/large/portraits/Capture.PNG";
+import { Link } from 'react-router-dom';
+import Pdf from "../../assets/resume/William_Berry_Resume.PDF";
 
 class Resume extends Component {
     render() {
     return(
         <div>
-        <div id='resume'>Resume goes here</div>
-        <a
-        href="https://www.linkedin.com/in/will-berry86"
-      >
+        <a href = {Pdf} target = "_blank" rel="noreferrer"><h2>Resume</h2></a>
+      
+        <Link to={{ pathname: "https://www.linkedin.com/in/will-berry86" }} target="_blanK">
         <h2>LinkedIn Profile</h2>
         <img
         src={linkedInImage}
@@ -16,7 +17,7 @@ class Resume extends Component {
         style={{ width: "100%" }}
         alt="linkedIn profile"
       />
-      </a>
+      </Link>
       </div>
     )
     }

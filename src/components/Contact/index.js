@@ -43,15 +43,15 @@ function ContactForm() {
       <form id="contact-form" onSubmit={handleSubmit}>
         <div>
           <label htmlFor="name">Name:</label>
-          <input type="text" name="name" defaultValue={name} onBlur={handleChange} />
+          <input type="text" name="name" className="textArea" defaultValue={name} onBlur={handleChange} />
         </div>
         <div>
           <label htmlFor="email">Email address:</label>
-          <input type="email" name="email" defaultValue={email} onBlur={handleChange} />
+          <input type="email" name="email" className="textArea" defaultValue={email} onBlur={handleChange} />
         </div>
         <div>
           <label htmlFor="message">Message:</label>
-          <textarea name="message" rows="5" defaultValue={message} onBlur={handleChange} />
+          <textarea className="textArea" name="message" rows="5" defaultValue={message} onBlur={handleChange} />
         </div>
         {errorMessage && (
           <div>
@@ -64,7 +64,7 @@ function ContactForm() {
         <img
           src={contactPainting}
           className="my-2"
-          style={{ width: "100%" }}
+          style={{ width: "80%" }}
           alt="cover"
         />
         </a> 

@@ -1,54 +1,49 @@
 import React, { Component } from "react";
-import runBuddyImage from "../../assets/project/images/run-buddy.PNG";
-import horiseonImage from "../../assets/project/images/horizeon-capture.PNG";
-import robotImage from "../../assets/project/images/robot-gladiator-capture.PNG";
+import passwordImage from "../../assets/project/images/password.PNG";
+import workdayImage from "../../assets/project/images/workday.PNG"
+import robotImage from "../../assets/project/images/robot.PNG";
 import dogMapsImage from "../../assets/project/images/dog-maps-screenshot.PNG";
-import devtraxImage from "../../assets/project/images/devtrax1.PNG";
-//import { Link } from 'react-router-dom';
+import readmeImage from "../../assets/project/images/readme-capture.PNG";
+import employeeImage from "../../assets/project/images/employee.png";
+import { Link } from 'react-router-dom';
 
 class Portfolio extends Component {
   render() {
   return (
     <div>
-    <h4 id="portfolio">Following is a list of projects completed during Vanderbilt Coding Bootcamp</h4>
+    <h2 id="portfolio">Following is a list of projects completed during Vanderbilt Coding Bootcamp</h2>
     <div id="portfolio" className="my-2">
-      <a href="https://wberry86.github.io/run-buddy/" className="container-1">
-        <h2>Run-Buddy (HTML and CSS)</h2>
+    <Link to={{ pathname: "https://wberry86.github.io/code-generator/" }} target="_blank">
+        <h3>Password-Generator</h3>
         <img
-        src={runBuddyImage}
+        src={passwordImage}
         className="my-2"
         style={{ width: "100%" }}
         alt="project 1"
       />
-      </a>
+      </Link>
 
-      <a
-        href="https://wberry86.github.io/horiseon-code-refactor/"
-        className="container-2"
-      >
-        <h2>Code-Refactor (HTML and CSS)</h2>
+      <Link to={{ pathname: "https://wberry86.github.io/work-day-scheduler/" }} target="_blank">
+        <h2>Code-Refactor</h2>
         <img
-        src={horiseonImage}
+        src={workdayImage}
         className="my-2"
         style={{ width: "100%" }}
         alt="project 2"
       />
-      </a>
+      </Link>
 
-      <a
-        href="https://wberry86.github.io/robot-gladiators/"
-        className="container-3"
-      >
-        <h2>Robot-Gladiators (JavaScript)</h2>
+      <Link to={{ pathname: "https://wberry86.github.io/robot-gladiators/" }} target="_blank">
+        <h2>Robot-Gladiators</h2>
         <img
         src={robotImage}
         className="my-2"
         style={{ width: "100%" }}
         alt="project 3"
       />
-      </a>
+      </Link>
 
-      <a href="https://wberry86.github.io/dog-maps/" className="container-4">
+      <Link to={{ pathname: "https://wberry86.github.io/dog-maps/" }} target="_blank">
         <h2>Dog-Maps Group Project</h2>
         <img
         src={dogMapsImage}
@@ -56,33 +51,27 @@ class Portfolio extends Component {
         style={{ width: "100%" }}
         alt="project 4"
       />
-      </a>
+      </Link>
 
-      <a
-        href="https://infinite-shore-33875.herokuapp.com/profile?code=VB9laabnVP1de08b&state=n6FLed5btot1CuHw2AXGPDrT"
-        className="container-5"
-      >
-        <h2>Devtrax Group Project</h2>
+      <Link to={{ pathname: "https://github.com/wberry86/professional-README-generator" }} target="_blank">
+        <h2>Professional-README-Generator</h2>
         <img
-        src={devtraxImage}
+        src={readmeImage}
         className="my-2"
         style={{ width: "100%" }}
         alt="project 5"
       />
-      </a>
+      </Link>
 
-      <a
-        href="https://www.google.com"
-        className="container-6"
-      >
-        <h2>Add 6th project here</h2>
+      <Link to={{ pathname: "https://github.com/wberry86/employee-tracker" }} target="_blank">
+        <h2>Employee-Manager</h2>
         <img
-        src={devtraxImage}
+        src={employeeImage}
         className="my-2"
         style={{ width: "100%" }}
         alt="project 6"
       />
-      </a>
+      </Link>
     </div>
     </div>
   );
