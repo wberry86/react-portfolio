@@ -26,8 +26,8 @@ class About extends Component {
           and streamline code in a more efficient manner. My past academic
           history includes a Bachelor of Arts in Film Studies from Carson Newman
           University, with a focus on: computer design, editing, an introduction
-          to media law and ethics, story-boarding, video/audio editing,
-          marketing/advertisement, creation of movie posters, editing and
+          to media law and ethics, story-boarding, video and audio editing,
+          marketing and advertisement, creation of movie posters, editing and
           filming of trailers, creation of websites, and the design and
           implementation of company logos. Together with my technical and
           creative skills combined, I should prove to be a valuable asset to any

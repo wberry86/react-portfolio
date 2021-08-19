@@ -8,20 +8,19 @@ class Contact extends Component {
   return (
     <section id='contact'>
       <div id="background2">
-      <main>
+      <address>
         
         <h1>
           Contact Information
         </h1>
         <h2>
           <ul>
-            <li>Email: wberry86@gmail.com</li>
-            <li>Phone: 865-250-5940</li>
-            <l1>Address: 1009 DavidsonSt. Nashville Tn, 37206</l1>
+            <li><a href="mailto:wberry86@gmail.com">Email: wberry86@gmail.com</a></li>
+            <li><a href="tel:8652505940">Call: 865-250-5940</a></li>
           </ul>
         </h2>
         
-      </main>
+      </address>
       </div>
       
        {/* <a href='/about'>
