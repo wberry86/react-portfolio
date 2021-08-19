@@ -45,6 +45,19 @@ body {
 
 }
 
+#about {
+  width: 100%;
+  padding: 20px;
+}
+
+#portfolio {
+  padding: 10%;
+}
+
+section {
+  background-color: var(--secondary);
+}
+
 h1,
 h2,
 h3,

@@ -12,7 +12,7 @@ class Portfolio extends Component {
   render() {
   return (
     <div>
-    <h2 id="portfolio">Following is a list of projects completed during Vanderbilt Coding Bootcamp</h2>
+    <h2 id="portfolio-heading">Following is a list of projects completed during Vanderbilt Coding Bootcamp</h2>
     <div id="portfolio" className="my-2">
     <Link to={{ pathname: "https://wberry86.github.io/code-generator/" }} target="_blank">
         <h3>Password-Generator</h3>

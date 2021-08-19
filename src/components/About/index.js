@@ -1,7 +1,7 @@
 //import { render } from "@testing-library/react";
 import React, { Component } from "react";
 import profileImage from "../../assets/large/portraits/profile2.jpg";
-import paintingTwo from "../../assets/cover/painting2.jpg";
+//import paintingTwo from "../../assets/cover/painting2.jpg";
 
 class About extends Component {
   render() {
@@ -9,10 +9,10 @@ class About extends Component {
     <section>
       <div className="my-2">
       <a href='/about'>
-        <img
-          src={paintingTwo}
+      <img
+          src={profileImage}
           className="my-2"
-          style={{ width: "100%" }}
+          style={{ width: "100%", padding: "30px" }}
           alt="cover"
         />
         </a>
@@ -32,12 +32,12 @@ class About extends Component {
           creative skills combined, I should prove to be a valuable asset to any
           company looking to hire new talent.
         </h4>
-        <img
-          src={profileImage}
+        {/* <img
+          src={paintingTwo}
           className="my-2"
-          style={{ width: "100%" }}
+          style={{ width: "95%" }}
           alt="cover"
-        />
+        /> */}
       </div>
     </section>
   );
