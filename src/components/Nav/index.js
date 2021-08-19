@@ -7,7 +7,7 @@ import React, { Component } from 'react';
     return(
         <header>
             <h2 id="title">
-    <a href="/header">
+    <a href="/header" id="name">
       <span role="img" aria-label="camera"></span> Will Berry
     </a>
   </h2>

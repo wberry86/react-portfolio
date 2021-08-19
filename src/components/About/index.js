@@ -7,6 +7,7 @@ class About extends Component {
   render() {
   return (
     <section>
+      <div id="background2">
       <div className="my-2">
       <a href='/about'>
       <img
@@ -38,6 +39,7 @@ class About extends Component {
           style={{ width: "95%" }}
           alt="cover"
         /> */}
+      </div>
       </div>
     </section>
   );

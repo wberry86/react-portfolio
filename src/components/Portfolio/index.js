@@ -11,7 +11,8 @@ import { Link } from 'react-router-dom';
 class Portfolio extends Component {
   render() {
   return (
-    <div>
+    <div id="background">
+      <div id="background2">
     <h2 id="portfolio-heading">Following is a list of projects completed during Vanderbilt Coding Bootcamp</h2>
     <div id="portfolio" className="my-2">
     <Link to={{ pathname: "https://wberry86.github.io/code-generator/" }} target="_blank">
@@ -100,6 +101,7 @@ class Portfolio extends Component {
       />
       </Link>
       <Link to={{ pathname: "https://github.com/JosephSuvak/The-Social-Network" }} target="_blank">Link to GitHub page</Link>
+    </div>
     </div>
     </div>
   );

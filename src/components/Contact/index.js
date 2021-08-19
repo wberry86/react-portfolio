@@ -7,7 +7,9 @@ class Contact extends Component {
   render () {
   return (
     <section id='contact'>
+      <div id="background2">
       <main>
+        
         <h1>
           Contact Information
         </h1>
@@ -18,7 +20,9 @@ class Contact extends Component {
             <l1>Address: 1009 DavidsonSt. Nashville Tn, 37206</l1>
           </ul>
         </h2>
+        
       </main>
+      </div>
       
        {/* <a href='/about'>
         <img

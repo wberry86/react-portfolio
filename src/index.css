@@ -5,12 +5,12 @@ main {
   padding: 50px 30px;
 }
 :root {
-  --primary: #767081;
-  --secondary: #F3A847;
+  --primary: #31afd4;
+  --secondary: #004fff;
   --tertiary: #B12704;
   --light: #fafafa;
-  --dark: #921919;
-  --darker: #111111;
+  --dark: #14213d;
+  --darker: #232528;
   --error: rgb(228, 46, 1);
   --spacing-one: calc(1rem * 0.5);
   --spacing-two: calc(1rem);
@@ -54,8 +54,32 @@ body {
   padding: 10%;
 }
 
+#borderbox {
+  margin: 30px;
+  background-color: var(--primary);
+}
+
 section {
   background-color: var(--secondary);
+  padding: 5%;
+}
+
+#background {
+  background-color: var(--secondary);
+  padding: 5%;
+}
+
+#background2 {
+  background-color: var(--primary);
+  padding: 5%;
+}
+
+nav {
+  font-size: 175%;
+}
+
+#name {
+  font-size: 200%;
 }
 
 h1,

@@ -6,8 +6,8 @@ import Pdf from "../../assets/resume/William_Berry_Resume.PDF";
 class Resume extends Component {
     render() {
     return(
-        <div>
-        
+        <div id="background">
+        <div id="background2">
         <Link to={{ pathname: "https://www.linkedin.com/in/will-berry86" }} target="_blanK">
         <h2>LinkedIn Profile</h2>
         <img
@@ -19,7 +19,7 @@ class Resume extends Component {
       </Link>
 
       <a href = {Pdf} target = "_blank" rel="noreferrer"><h2>Resume</h2></a>
-
+      </div>
       </div>
     )
     }
